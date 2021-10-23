@@ -6,7 +6,8 @@ import 'package:flutter/material.dart';
 import 'home_appbar.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  final GlobalKey<ScaffoldState> scaffoldKey;
+  const HomePage({Key? key, required this.scaffoldKey}) : super(key: key);
 
   @override
   _HomePageState createState() => _HomePageState();
@@ -19,7 +20,11 @@ class _HomePageState extends State<HomePage> {
       child: SingleChildScrollView(
         child: Column(
           children: [
-            HomeAppBar(),
+            HomeAppBar(
+              onMenuTap: () {
+                widget.scaffoldKey.currentState!.openDrawer();
+              },
+            ),
             PrepertyType(),
             Recommended(),
           ],

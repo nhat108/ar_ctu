@@ -1,3 +1,4 @@
+import 'package:ar_ctu/screens/list_recommended/list_recommended_page.dart';
 import 'package:ar_ctu/screens/room_details/room_details_page.dart';
 import 'package:ar_ctu/utils/app_colors.dart';
 import 'package:ar_ctu/utils/app_routes.dart';
@@ -24,10 +25,15 @@ class Recommended extends StatelessWidget {
                   fontWeight: FontWeight.w700,
                 ),
               ),
-              Text(
-                "See all",
-                style: AppStyles.textSize14().copyWith(
-                  decoration: TextDecoration.underline,
+              GestureDetector(
+                onTap: () {
+                  AppRoutes.push(context, ListRecommendedPage());
+                },
+                child: Text(
+                  "See all",
+                  style: AppStyles.textSize14().copyWith(
+                    decoration: TextDecoration.underline,
+                  ),
                 ),
               ),
             ],
@@ -59,7 +65,7 @@ class Recommended extends StatelessWidget {
                               CacheImageNetworkWidget(
                                 width: 200,
                                 height: 120,
-                                borderRadius: 15,
+                                borderRadius: 10,
                                 imageUrl:
                                     'https://s.yimg.jp/images/tbv/img/news/202011/CTU_JobFair_2020_01.jpg',
                               ),

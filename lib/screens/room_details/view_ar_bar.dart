@@ -22,21 +22,17 @@ class ViewArBar extends StatelessWidget {
           ),
         ],
       ),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Container(),
-          Container(
-            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-            decoration: BoxDecoration(
-                color: AppColors.LightSkyBlue,
-                borderRadius: BorderRadius.circular(20)),
-            child: Text(
-              "View in 3D",
-              style: AppStyles.textSize18(),
-            ),
-          ),
-        ],
+      child: Container(
+        width: double.infinity,
+        alignment: Alignment.center,
+        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+        decoration: BoxDecoration(
+            color: AppColors.LightSkyBlue,
+            borderRadius: BorderRadius.circular(20)),
+        child: Text(
+          "Go to AR",
+          style: AppStyles.textSize18(),
+        ),
       ),
     );
   }

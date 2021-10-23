@@ -70,7 +70,7 @@ class PrepertyType extends StatelessWidget {
                       height: 8,
                     ),
                     Text(
-                      "Flat",
+                      "Ngoài Trời",
                       style: AppStyles.textSize14(
                         fontWeight: FontWeight.w700,
                         color: AppColors.CarnationPink,
@@ -88,13 +88,13 @@ class PrepertyType extends StatelessWidget {
                       height: 65,
                       borderRadius: 10,
                       imageUrl:
-                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjOPV6kjkLYClng-nngmibN7CmAyTXa96CFFF76GydBYtYRz8oIB-OPtv0_3-xPwEgJbg&usqp=CAU',
+                          'https://education81946.files.wordpress.com/2016/03/khu2-khoa.jpg',
                     ),
                     const SizedBox(
                       height: 8,
                     ),
                     Text(
-                      "House",
+                      "Khoa",
                       style: AppStyles.textSize14(
                         fontWeight: FontWeight.w700,
                         color: AppColors.CarnationPink,
@@ -114,7 +114,7 @@ class PrepertyType extends StatelessWidget {
                           height: 65,
                           borderRadius: 10,
                           imageUrl:
-                              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjOPV6kjkLYClng-nngmibN7CmAyTXa96CFFF76GydBYtYRz8oIB-OPtv0_3-xPwEgJbg&usqp=CAU',
+                              'https://27mi124bz6zg1hqy6n192jkb-wpengine.netdna-ssl.com/wp-content/uploads/2020/05/Classroom-Management-for-an-Effective-Learning-Environment-scaled.jpg',
                         ),
                         Positioned.fill(
                           child: Align(
@@ -138,7 +138,7 @@ class PrepertyType extends StatelessWidget {
                       height: 8,
                     ),
                     Text(
-                      "Room",
+                      "Phòng",
                       style: AppStyles.textSize14(
                         fontWeight: FontWeight.w700,
                       ),

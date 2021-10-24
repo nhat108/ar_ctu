@@ -115,7 +115,12 @@ class _CustomTextFieldState extends State<CustomTextField> {
       validator: widget.validator,
       textCapitalization: widget.textCapitalization,
       enabled: widget.enabled,
+      obscureText: widget.obscureText,
       decoration: InputDecoration(
+        suffixIcon: widget.suffixIcon != null
+            ? GestureDetector(
+                onTap: widget.onSuffixIconTap, child: widget.suffixIcon)
+            : null,
         hintText: widget.hintText,
         errorText:
             (!valid && hasChanged) && getError().isNotEmpty ? getError() : null,

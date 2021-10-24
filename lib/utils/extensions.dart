@@ -72,9 +72,10 @@ extension StringX on String {
   bool isValidPassword() {
     // var regexPassword =
     //     r"^(?=.*[A-Z])(?=.*[0-9])(?=.{8,})(?=.*[!@#$%^&*.])(?=.*[A-Z])";
-    var regexPassword =
-        r"^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\^$*.\[\]{}\(\)?\-“!@#%&/,><\’:;|_~`])\S{8,99}";
-    return RegExp(regexPassword).hasMatch(this);
+    // var regexPassword =
+    //     r"^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\^$*.\[\]{}\(\)?\-“!@#%&/,><\’:;|_~`])\S{8,99}";
+    // return RegExp(regexPassword).hasMatch(this);
+    return this.length >= 6;
   }
 
   String format12H() {

@@ -1,4 +1,4 @@
-import 'package:ar_ctu/screens/auth/sign_up_page.dart';
+import 'package:ar_ctu/screens/auth/get_started_page.dart';
 import 'package:ar_ctu/utils/app_assets.dart';
 import 'package:ar_ctu/utils/app_colors.dart';
 import 'package:ar_ctu/utils/app_routes.dart';

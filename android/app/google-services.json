@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1066233402129",
+    "project_id": "ctu-ar",
+    "storage_bucket": "ctu-ar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066233402129:android:56ddcb734a6e9b4e30f2b0",
+        "android_client_info": {
+          "package_name": "com.nolove.ar_ctu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066233402129-u3knu9hbo18dpnn68niitua4njubhl42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIp4aya0bPGtk0vOD3Cs4DWBjXpJyIq64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066233402129-u3knu9hbo18dpnn68niitua4njubhl42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
